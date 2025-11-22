@@ -26,6 +26,12 @@
 4. Predict:
    POST a wav/mp3 file to `http://localhost:5000/predict` as form-data `file`.
 
+   After deployement check the details : https://bhuvaneshwari244-hacksphere-app-ui-qfswxl.streamlit.app/
+
+   commands to execute the code:
+   1) python train_model.py
+   2) streamlit run app_ui.py
+
 ## Notes
 - Jitter and shimmer are approximated; for precise clinical features use specialized algorithms.
 - Replace placeholder example metrics in the presentation after training & evaluation.
